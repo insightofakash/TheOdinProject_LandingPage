@@ -16,6 +16,7 @@ a {
   align-items: center;
   color:#f9faf8;
   background-color: #1f2937;
+  padding: 10px;
 }
 
 .header .logo {
@@ -38,27 +39,29 @@ a {
 
 .body .one {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 50px;
   padding: 50px;
   color: #f9faf8;
   background-color: #1f2937;
+  flex-wrap: wrap-reverse;
 }
 
 .one .left {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  gap: 23px;
   max-width: 400px;
 }
 
 .one .left .nobutton {
+  font-size: 18px;
   border: none;
   border-radius: 5px;
   background-color: #3882f6;
-  width: 100px;
-  height: 30px;
+  width: 130px;
+  height: 40px;
 }
 
 .one .awesome {
@@ -67,13 +70,19 @@ a {
 }
 
 .one .right {
-  width: 500px;
+  max-width: 500px;
+  min-width: 400px;
+  min-height: 250px;
+  width: 40%;
+  height: 40%;
   border-radius: 25px;
 }
 
 .two {
   display: flex;
   flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 80px;
 }
 
 .two .question {
@@ -81,6 +90,7 @@ a {
   text-align: center;
   font-weight:bolder;
   color: #1f2937;
+  padding-bottom: 20px;
 }
 
 .two .bottom {
@@ -103,4 +113,91 @@ a {
   width: 120px;
   border: 5px solid #3882f6;
   border-radius: 20px;
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  height: 250px;
+  padding: 30px;
+}
+
+.three .quote{
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.three .quoteguy {
+  font-weight: bold;
+}
+
+
+.four {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 100px 70px 100px;
+}
+
+.four .bluebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 30px 30px 0px 30px;
+  flex-wrap: wrap;
+}
+
+.four button {
+  font-size: 18px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: #e5e7eb solid 2px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.bluebox .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bluebox .left p {
+  margin:0;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+.bluebox .right {
+  text-align: center;
+  min-width: 160px;
+}
+
+.itstime {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.jerkoff {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+footer p {
+  background-color: #1f2937;
+  margin:0;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: #e5e7eb;
 }
