@@ -1,0 +1,106 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#f9faf8;
+  background-color: #1f2937;
+}
+
+.header .logo {
+  flex: 1;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 15px 15px 15px 50px;
+}
+
+.header .links {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  padding: 15px 50px 15px 15px;
+}
+
+a {
+  color: #f9faf8;
+}
+
+.body .one {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+  color: #f9faf8;
+  background-color: #1f2937;
+}
+
+.one .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.one .left .nobutton {
+  border: none;
+  border-radius: 5px;
+  background-color: #3882f6;
+  width: 100px;
+  height: 30px;
+}
+
+.one .awesome {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.one .right {
+  width: 500px;
+  border-radius: 25px;
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+}
+
+.two .question {
+  font-size: 36px;
+  text-align: center;
+  font-weight:bolder;
+  color: #1f2937;
+}
+
+.two .bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boxone,.boxtwo,.boxthree,.boxfour {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.boxtext {
+  width: 150px;
+  text-align: center;
+}
+
+.two img {
+  width: 120px;
+  border: 5px solid #3882f6;
+  border-radius: 20px;
+}
